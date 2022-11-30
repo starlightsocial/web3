@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Watch It - Movie</title>
+    <!-- ICON WEB  -->
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+	<!-- J QUERY CDN -->
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--/J QUERY CDN -->
+	<!-- BOOTSTRAP CDN -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/300f11e554.js" crossorigin="anonymous"></script>
+	<!-- /BOOTSTRAP CDN -->
+	<!-- ICON CDN -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+	<!--/ICON CDN -->
+	<!-- LINK CSS FILE -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--/LINK CSS FILE -->
+	<!-- ISOTOPES PLUGIN -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<!--/ISOTOPES PLUGIN -->
+	<!-- OWL CAROUSEL -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<!--/OWL CAROUSEL -->
+	<!-- AOS ANIMATION CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!--/AOS ANIMATION CSS -->
+</head>
+<body>
+        <!-- ======================================== SPLASH SCREEN ======================================== -->
+
+        <!-- ========================================/SPLASH SCREEN ======================================== -->
+
+
+	<!-- ======================================== THEME CHANGER======================================== -->
+	<div class="theme_btn dropdown-toggle" id="menu1" data-toggle="dropdown"  data-aos="zoom-in"><span class="material-icons-outlined">settings_suggest</span></div>
+	<div class="theme_box dropdown-menu" role="menu">
+		<div class="theme_mode">
+			<div class="light_mode">
+				<img src="images/light_mode.png" alt="" style="border: 3px solid #FFFFFF">
+				<label for="">Light Mode</label>
+			</div>
+			<div class="dark_mode">
+				<img src="images/dark_mode.png" alt="">
+				<label for="">Dark Mode</label>
+			</div>
+		</div>
+		<div class="theme_colors">
+			<label for="">Colors: </label>
+			<div class="row mx-auto theme_shades">
+
+				<span data-color-code="#ff0000" style="background:#ff0000;border: 3px solid var(--black_color);"></span>
+				<span data-color-code="#87c0de" style="background:#87c0de;"></span>
+				<span data-color-code="#4070F4" style="background:#4070F4;"></span>
+				<span data-color-code="#048654" style="background:#048654;"></span>
+				<span data-color-code="#086391" style="background:#086391;"></span>
+				<span data-color-code="#9933ff" style="background:#9933ff;"></span>
+				<span data-color-code="#ff6600" style="background:#ff6600;"></span>
+				<span data-color-code="#5ed5ed" style="background:#5ed5ed;"></span>
+				<span data-color-code="#F7AD19" style="background:#F7AD19;"></span>
+				<span data-color-code="#24cbc7" style="background:#24cbc7;"></span>
+				<span data-color-code="#FE87AC" style="background:#FE87AC;"></span>
+				<span data-color-code="#00ECC2" style="background:#00ECC2;"></span>
+			</div>
+		</div>
+	</div>
+	<!-- ========================================/THEME CHANGER======================================== -->
+	<!-- ======================================== NAVBAR PORTION======================================== -->
+	<div class="container-fluid Navbar_Portion" id="Navbar_Portion">
+		<div class="col-xl-10 mx-auto">
+			<div class="col-12 d-flex align-items-center justify-content-between">
+				<div class="nav_logo">
+					<span>
+						<span>></span><span class="material-icons-outlined">visibility</span><span><</span>
+						<span>&nbsp;WatchIt</span>
+					</span>
+				</div>
+				<div class="nav_links d-xl-flex d-lg-flex d-none">
+					<li><a href="#Banner_Portion">Home</a></li>
+					<li><a href="#About_Me_Portion">About</a></li>
+					<li><a href="#Service_Portion">Download</a></li>
+					<li><a href="#Contect_Me_Portion">Contact</a></li>
+				</div>
+				<div class="small_navbar">
+					<div class="nav_btn dropdown-toggle" id="menu1" data-toggle="dropdown"><span class="material-icons-outlined">menu</span></div>
+					<div class="small_nav dropdown-menu" role="menu" aria-labelledby="menu1" style="top: 10px!important;">
+						<div class="d-flex align-items-center justify-content-start flex-column">
+							<div class="d-flex align-items-center justify-content-center flex-column">
+								<li><a href="#Banner_Portion"><span class="material-icons-outlined">home</span><span>Home</span></a></li>
+								<li><a href="#Contect_Me_Portion"><span class="material-icons-outlined">help_outline</span><span>Help</span></a></li>
+							</div>
+							<div class="d-flex align-items-center justify-content-start flex-column">
+								<li><a href="#About_Me_Portion"><span class="material-icons-outlined">account_circle</span><span>About</span></a></li>
+							</div>
+							<div class="d-flex align-items-center justify-content-start flex-column">
+								<li><a href="#Service_Portion"><span class="material-icons-outlined">download</span><span>Download</span></a></li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ========================================/NAVBAR PORTION======================================= -->
+	<!-- ========================================BANNER PORTION======================================== -->
+	<div class="container-fluid Banner_Portion" id="Banner_Portion">
+		<div class="col-xl-10 mx-auto">
+			<div class="col-12 d-flex align-items-center justify-content-between flex-xl-row flex-lg-row flex-column-reverse">
+				<div class="col-xl-6 col-lg-7 col-md-11 col-12" data-aos="zoom-in">
+					<div class="personal_info">
+						<span>WatchIt</span>
+						<h1>Movie Streaming</h1>
+                        <div class="container">
+                        <h4>DOWNLOAD NOW</h4>
+                        </div>
+
+
+						<p>Watch and enjoy!</p>
+					</div>
+					<div class="contect_info">
+						<li><span class="material-icons">email</span><span>&nbsp;
+ <a href="mailto:null@hotmail.com">null@hotmail.com</a></span></li>
+						
+						<li><span class="material-icons">visibility</span><span>&nbsp;</span></li>
+					</div>
+				</div>
+				<div class="img_container" data-aos="zoom-in">
+						<img src="images/watch_2.png"; left:35px; alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ========================================/BANNER PORTION======================================== -->
+	<!-- ======================================== ABOUT US PORTION====================================== -->
+	<div class="container-fluid About_Me_Portion" id="About_Me_Portion">
+    <title>Starlight - About</title>
+		<div class="col-xl-10 mx-auto">
+			<div class="col-12 d-flex align-items-center justify-content-around flex-xl-row flex-lg-row flex-md-row flex-column">
+				<div class="col-xl-5 col-lg-6 col-md-5 col-sm-10 col-12 about_banner" data-aos="zoom-out">
+					<div class="img_container">
+						<img src="images/watch.png" alt="">
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-7 col-sm-10 col-12 about_detail" data-aos="zoom-out">
+					<div class="Portion_Heading">
+						<h2>About</h2>
+					</div>
+					<p>Watch free everywhere </p>
+					<div class="tags row mx-auto">
+						<li>DART</li>
+						<li>CSS</li>
+						<li>HTML</li>
+						<li>SWIFT</li>
+						<li>JAVASCRIPT</li>
+						<li>KOTLIN</li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ========================================/ABOUT US PORTION====================================== -->
+	<!-- ======================================== SERVICES PORTION====================================== -->
+	<div class="container-fluid Service_Portion" id="Service_Portion">
+		<div class="col-xl-10 mx-auto">
+			<div class="Portion_Heading">
+				<h2>Download Now !</h2>
+				<span></span>
+			</div>
+			<div class="col-12 row mx-auto">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-9 col-12" data-aos="zoom-in">
+					<div class="service_card">
+						<div class="icon_container">
+							<span class="material-icons-outlined">download</span>
+						</div>
+						<div class="service_detail">
+							<h4>Github</h4>
+							
+							<a href="https://github.com/starlightsocial/starlight-app"><span>Download</span><span class="jam jam-arrow-circle-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-9 col-12" data-aos="zoom-in">
+					<div class="service_card">
+						<div class="icon_container">
+							<span class="material-icons-outlined">download</span>
+						</div>
+						<div class="service_detail">
+							<h4>Play Store</h4>
+							
+							<a href="https://play.google.com/"><span>Download</span><span class="jam jam-arrow-circle-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-9 col-12" data-aos="zoom-in">
+					<div class="service_card">
+						<div class="icon_container">
+							<span class="material-icons-outlined">download</span>
+						</div>
+						<div class="service_detail">
+							<h4>Apple Store</h4>
+							
+							<a href="https://www.apple.com/pt/app-store/"><span>Download</span><span class="jam jam-arrow-circle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ========================================/REVIEW PORTION===================================== -->
+	<!-- ======================================== CONTECT ME PORTION================================= -->
+	<div class="container-fluid Contect_Me_Portion" id="Contect_Me_Portion">
+		<div class="col-xl-10 mx-auto">
+			<div class="Portion_Heading">
+				<h2>Contact Now</h2>
+				<span>Problem ?</span>
+			</div>
+			<div class="col-12 row mx-auto">
+				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-12" data-aos="zoom-in">
+					<div class="contect_card">
+						<div class="icon">
+							<span class="material-icons-outlined">mail</span>
+						</div>
+						<div class="contect_detail">
+							<h5>Email</h5>
+							<span>null@hotmail.com</span>
+						</div>
+					</div>
+					
+						
+					
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- ========================================/CONTECT ME PORTION================================= -->
+	<!-- ======================================== FOOTER PORTION================================= -->
+	<div class="container-fluid Footer_Portion">
+		<div class="col-xl-10 mx-auto">
+			<div class="col-12 d-flex align-items-center justify-content-between flex-xl-row flex-lg-row flex-md-row flex-sm-row flex-column">
+				<p class="mb-0" right="1000" >&#169 Starlight</p>
+				<div class="social_media">
+		<li><a href="https://www.instagram.com/starlight__app" class="fa-brands fa-instagram"></a></li>
+<li><a href="https://www.instagram.com/starlight_app" class="fa-brands fa-tiktok"></a></li>
+<li><a href="https://www.instagram.com/starlight_app" class="fa-brands fa-twitter"></a></li>
+<li><a href="https://www.instagram.com/starlight_app" class="fa-brands fa-reddit"></a></li>
+                                   
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ========================================/FOOTER PORTION================================= -->
+	<!-- ======================================== SCROLL TO TOP================================= -->
+	<button class="scroll_to_top"><span class="fa-solid fa-arrow-up-long"></span></button>
+	<!-- ========================================/SCROLL TO TOP================================= -->
+	
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- AOS ANIMATION -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	AOS.init({
+		offset: 150,
+		duration: 700,
+	});
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
